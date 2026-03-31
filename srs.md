@@ -362,8 +362,7 @@ Standalone web application with client-server architecture (React frontend, Node
 | ID | Requirement |
 |---|---|
 | NFR-PERF-01 | API responses for GET requests shall complete within **500ms** under normal load. |
-| NFR-PERF-02 | API responses for POST/PUT/PATCH requests shall complete within **1000ms** under normal load. |
-| NFR-PERF-03 | The system shall support at least **100 concurrent users** without degradation. |
+| NFR-PERF-02 | API responses for POST/PUT/PATCH requests shall complete within **1000ms** under normal load. 
 | NFR-PERF-04 | Database queries on `time_sessions` shall use indexed fields (`userId`, `date`) for performance. |
 
 ---
