@@ -295,6 +295,7 @@ Standalone web application with client-server architecture (React frontend, Node
 | FR-TS-26 | Manual overtime shall have `overtime.status = PENDING` until approved by admin/manager. |
 | FR-TS-27 | If a template is selected, `overtime.status` shall be set to `APPROVED` automatically. |
 | FR-TS-28 | Template-based overtime does not require an additional approval step. |
+| FR-TS-29 | When selecting a step-up role, users shall only be able to select a role that is hierarchically above their current role. |
 
 ---
 
