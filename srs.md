@@ -426,7 +426,6 @@ Standalone web application with client-server architecture (React frontend, Node
 | `overtime` | Object | No | Overtime details (if isOvertime=true) |
 | `overtime.templateId` | ObjectId | No | Reference to approved template |
 | `overtime.reason` | String | Conditional | Required if no template |
-| `overtime.status` | String | No | `PENDING`, `APPROVED`, `REJECTED` |
 | `status` | String | Yes | `SUBMITTED`, `APPROVED`, `REJECTED` |
 | `isDeleted` | Boolean | Yes | Soft delete flag |
 | `createdAt` | Date | Yes | Creation timestamp |
